@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+body {
+    background:white;
+
+}
+header {
+    display: none;
+    position:fixed;
+    top:30;
+    left:30;
+    height:80px;
+    margin-left:auto;
+    margin-right:auto;
+    background:khaki;
+    width:100%;
+    text-align:center;
+}
+
+h1,h2 {
+    font-weight:bold;
+    line-height:1.5em;
+    padding:10px;
+}
+
+h1{
+    text-align: center;
+    font-size:30px;
+    color:black;
+
+}
+h2 {
+    text-align: center;
+    font-size:24px;
+    color:black;
+}
+
+
+

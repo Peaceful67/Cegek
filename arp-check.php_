@@ -1,0 +1,8 @@
+<?php
+
+chdir( '/web/www/cegek/');
+include_once 'settings.inc';
+include_once INCLUDES.'arp_check.inc';
+$mysqliLink->close();
+exit(0);
+?>

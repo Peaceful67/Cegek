@@ -1,0 +1,178 @@
+
+
+.warning {
+    color: red;
+    font-size:30px;
+}
+
+.editor {
+    line-height: 200%;
+}
+
+input {
+    background: lightgray;
+    margin: 5px;
+}
+button {
+    background: lightgray;
+    margin: 5px;
+}
+
+.page_title button {
+    height: 35px;
+    width:85px;
+    border: 2px solid #a1a1a1;
+    padding: 3px 5px; 
+    border-radius: 5px;
+    background-color: #778899;
+    text-align: center;
+}
+.page_title button:active {
+    background-color: #a0a0cf;
+}
+.selected_button button {
+    background-color: #32b3bd;
+}
+
+button img {
+    height: 15px;
+    width:15px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.editor label {
+    padding-left:26px;
+    width:180px;
+    display: inline-block;   
+}
+
+.editor    input[type="image"] {
+    height: 15px;
+    width:15px;
+    margin: 10px;
+    padding: 0px;
+}
+
+.user_name {
+    text-align: left;
+    font-size: 12px;
+}
+
+.lists {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.lists button   {
+    background-color: lightgray;
+    margin: 0px;
+}
+.lists button img {
+    height: 15px;
+    width:15px;
+    padding: 0px;
+}
+
+.lists label {
+    width:200px;
+    display: inline-block;   
+}
+.lists img {
+    height: 20px;
+    width:20px;
+    background: transparent;
+    padding: 0px;
+    margin: 0px;
+}
+
+.lists table {
+    width: 100%;
+    margin:0px;
+    text-align:left;
+    border-collapse:collapse;
+    border: 2px solid black;
+    border-spacing : 1px;
+    overflow-x:auto;
+}
+
+.lists table tbody{
+    display:block;
+    width: 100%;
+    overflow: auto;  
+    height: 800px;
+}
+.lists thead tr {
+    display: block;
+}
+
+.lists thead {
+    height: 35px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse:collapse;
+    background: lightgray;
+    color:black;
+}
+
+.lists th {
+    padding: 5px;
+    text-align: center;
+}
+
+.lists td {
+    padding: 5px;
+    font-size: 12px;
+    text-align: left;
+}
+
+
+.lists table tr {
+    height: 20px;
+    font-size: 15px;
+    border: 1px solid black;
+    vertical-align: central;
+}
+
+.lists table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.lists table tr:nth-child(odd) {
+    background-color: #a2a2a2;
+}
+
+
+
+.keret {
+    border: 2px solid #a1a1a1;
+    padding: 10px 40px; 
+    border-radius: 25px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    width: 200px;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+    overflow-x: auto;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+

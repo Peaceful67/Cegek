@@ -1,0 +1,14 @@
+
+.ip_list_column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  
+}
+
+/* Clear floats after the columns */
+.ip_list_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
